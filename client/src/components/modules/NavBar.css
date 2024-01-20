@@ -1,0 +1,136 @@
+.NavBar-container {
+  /* padding: var(--s) var(--m); */
+  /* background-color: var(--primary); */
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.NavBar-title {
+  /* color: var(--white);
+  font-size: 20px; */
+
+  /* memory.ou */
+
+  position: absolute;
+  left: 40.62%;
+  right: 40.62%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: 'Libre Bodoni';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.1em;
+
+  color: #FFFFFF;
+}
+
+.NavBar-linkContainer {
+  margin-left: var(--l);
+}
+
+.NavBar-link,
+.NavBar-link:visited {
+  color: var(--white);
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.NavBar-link:hover {
+  opacity: 0.8;
+}
+
+.NavBar-link.NavBar-login {
+  opacity: 1;
+}
+
+.NavBar-link + .NavBar-link {
+  margin-left: var(--m);
+}
+
+
+
+/* NavBar */
+
+/* position: absolute;
+width: 1280px;
+height: 60px;
+left: 0px;
+top: 0px; */
+
+
+
+/* Create */
+/* 
+position: absolute;
+left: 70.47%;
+right: 21.72%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Libre Caslon Display';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.1em;
+
+color: #FFFFFF;
+ */
+
+
+
+/* Explore */
+/* 
+position: absolute;
+left: 81.33%;
+right: 10.86%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Libre Caslon Display';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.1em;
+
+color: #FFFFFF; */
+
+
+
+/* Login */
+/* 
+position: absolute;
+left: 92.19%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Libre Caslon Display';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.1em;
+
+color: #FFFFFF;
+
+ */
