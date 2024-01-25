@@ -58,16 +58,16 @@ const App = () => {
           <Routes>
             <Route
               element={
-                <Home handleLogin={handleLogin} handleLogout={handleLogout} userId={userId} />
+                <Skeleton handleLogin={handleLogin} handleLogout={handleLogout} userId={userId} />
               }
               path="/"
             />
-            <Route
+            {/* <Route
               element={
                 <Skeleton handleLogin={handleLogin} handleLogout={handleLogout} userId={userId} />
               }
               path="/view"
-            />
+            /> */}
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
